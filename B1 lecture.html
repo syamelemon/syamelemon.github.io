@@ -2,13 +2,82 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>大学一回生修得単位一覧 </title>
+        <title>修得単位一覧 </title>
+        <link rel="icon" href="1MQRDpaC_400x400.jpg">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <h1>修得単位一覧</h1>
             <div class="home"><a href="index.html">ホームへ</a></div>
         </header>
+        <p id="lib-container"></p>
+        <ul>
+           <li class="unfulfilled">主専攻科目(認知情報学系)　残り28単位<ul>
+                <li>情報基礎演習[全学向]</li>
+                <li>言語科学Ⅰ</li>
+                <li>言語科学Ⅱ</li>
+                <li>言語科学入門</li>
+                <li>認知心理学Ⅰ(知覚・認知心理学)</li>
+                <li>認知心理学Ⅱ(知覚・認知心理学)</li>
+                <li>神経科学の基礎</li>
+                <li>スポーツ心理学</li>
+                <li>健康科学Ⅰ</li>
+                <li>生活習慣と生体機能障害（人体の構造と機能及び疾病）</li>
+            </ul></li>
+            <li class="unfulfilled">副専攻科目(文化総合研究)　残り20単位<ul>
+
+            </ul></li>
+            <li class="fulfilled">学系入門科目　残り0単位<ul>
+                <li>国際文明学系入門A</li>
+                <li>文化環境学系入門</li>
+            </ul></li>
+            <li class="unfulfilled">外国語科目　残り10単位<ul>
+                <li>ドイツ語ⅠA(文法)</li>
+                <li>ドイツ語ⅠA(演習)</li>
+                <li>ドイツ語ⅠB(文法)</li>
+                <li>ドイツ語ⅠB(演習)</li>
+                <li>英語ライティング-リスニングA</li>
+                <li>英語リーディング(前期)</li>
+                <li>英語リーディング(後期)</li>
+            </ul></li>
+            <li class="unfulfilled">自由科目　残り17単位<ul>
+                <li>スポーツ実習ⅠA ［フィットネス・ウォーキング］</li>
+                <li>日本都市史(工学部)</li>
+                <li>数学基礎A ［文系］</li>
+                <li>数学基礎B ［文系］</li>
+                <li>プログラミング演習（Python）</li>
+                <li>日本史Ⅱ</li>
+                <li>霊長類学入門Ⅱ</li>
+                <li>文系向の基礎化学Ⅱ</li>
+            </ul></li>
+    </ul>
+    <p id="lib-container"></p>
+    <footer>
+        更新日:2024/03/01
+    </footer>
+    <style>
         
+        body{
+          margin:30px;
+        }
+        #lib-container{
+          padding: 2px 0;
+          border-top: 1px solid black;
+          border-bottom: 1px solid black;
+          background-color: black;
+        
+        }
+        a{
+          text-decoration: none;
+        }
+        li.fulfilled {
+            list-style-type: '✔ ';
+        }
+            
+        li.unfulfilled {
+            list-style-type: '✘ ';
+        }
+      </style>    
     </body>
 </html>
