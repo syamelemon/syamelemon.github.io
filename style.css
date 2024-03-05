@@ -6,3 +6,11 @@ header {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+footer {
+    padding: 0px 4px 4px 0px;
+    border-top: 4px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
