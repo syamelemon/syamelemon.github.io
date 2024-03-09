@@ -14,3 +14,7 @@ footer {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+.myphoto{
+    width: 100%;
+    height: auto;
+}
